@@ -1,0 +1,43 @@
+{
+  "name": "one-stop-posting",
+  "version": "1.0.0",
+  "description": "posting for socal medias: MongoDB, Node.js, React.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/high-five-cs-5800/testingNode2.git"
+  },
+  "author": "Chi-Wei Wang (johnHaloWang)",
+  "license": "GPL-3.0",
+  "homepage": "http://cs580.yusun.io/teams-fall2018/high-five/index.html",
+  "dependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.18.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.6",
+    "node-sass-middleware": "^0.11.0",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^5.6.0",
+    "eslint-plugin-react": "^7.11.1",
+    "nodemon": "^1.18.4",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
